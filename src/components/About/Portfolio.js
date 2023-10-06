@@ -10,7 +10,7 @@ function Portfolio() {
         <Particle />
         <Container>
           <h1 className="project-heading" style={{color : "purple"}}>
-            Professional <strong className="purple">Skillset </strong>
+            My <strong className="purple">github</strong>
           </h1>
           <Techstack />
           <h1 className="project-heading" style={{color : "purple"}}>

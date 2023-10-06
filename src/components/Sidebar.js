@@ -69,7 +69,7 @@ export default function sidebar() {
                   </li>
                   <li className="nav-item">
                     <a href="/Dashboard" className="nav-link">
-                      <p><IoBookmarkSharp/>Portfolio</p>
+                      <p><IoBookmarkSharp/>My Project</p>
                     </a>
                   </li>
                 </ul>

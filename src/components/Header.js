@@ -11,9 +11,7 @@ function Header() {
     <div className="header">
     <div className="container">
         <div className="header-con">
-            <div className="logo-container">
-                <a href="#home"> <FiCode /></a>
-            </div>
+
             <ul className={click ? "menu active" : "menu"}>
                 <li className="menu-link" onClick={closeMobileMenu}>
                 <a href="#home" data-nav-section="home">Home</a>
@@ -22,7 +20,7 @@ function Header() {
                 <a href="#about" data-nav-section="about">About</a>
                 </li>
                 <li className="menu-link" onClick={closeMobileMenu}>
-                <a href="#port" data-nav-section="About">Portfolio</a>
+                <a href="#port" data-nav-section="project">Project</a>
                 </li>
             </ul>
             <div className="mobile-menu" onClick={handleClick}>

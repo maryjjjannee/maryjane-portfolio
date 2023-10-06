@@ -12,23 +12,6 @@ function Footer() {
         <Col md="4" className="footer-copywright" >
           <h3 style={{fontSize: "1.2em"  , color :"black"}}>Designed and Developed by Maryjane</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3 style={{fontSize: "1.2em" , color :"black"}}>Copyright © {year} Admin-Lte 3</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/maryjjjanne/"
-                style={{ color: "black" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col>
       </Row>
     </Container>
   );

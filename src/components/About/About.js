@@ -5,6 +5,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
 
+
 function About() {
   return (
     <div className="about" id="about">
@@ -16,7 +17,7 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "10px",
+              paddingTop: "20px",
               paddingBottom: "50px",
             }}
           >
