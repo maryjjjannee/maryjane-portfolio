@@ -1,6 +1,6 @@
 {
-  "homepage": "http://owskr.github.io/maryjane-portfolio",
-  "name": "admin-lte3",
+  "homepage": "https://maryjane-portfolio.vercel.app/",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
