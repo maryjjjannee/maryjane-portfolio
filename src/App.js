@@ -19,9 +19,6 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    document.title = "Portfolio";
-  },[]);
   return (
     <>
     <Preloader load={load} />
