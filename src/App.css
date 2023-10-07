@@ -480,8 +480,8 @@
   padding-left: 1px !important;
 }
 .profile-home {
-  width: 700px; /* ปรับขนาดรูปภาพตามที่คุณต้องการ */
-  height:700px;
+  width: 550px; /* ปรับขนาดรูปภาพตามที่คุณต้องการ */
+  height:550px;
   border-radius: 50%; /* กำหนดรูปภาพให้เป็นวงกลม */
   object-fit: cover; /* ปรับขนาดรูปภาพให้พอดีกับพื้นที่ของวงกลม */
 }
