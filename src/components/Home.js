@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "./Particle";
 import Type from "./Type";
@@ -6,6 +6,9 @@ import Home2 from "./Home2";
 import profileImg from "../Assets/profile.png";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Onwanya | Portfolio";
+  }, []);
   return (
     <div className="home">
       <section>
@@ -23,7 +26,7 @@ function Home() {
 
                 <h1 className="heading-name" style={{ color: "white" }}>
                   I'm
-                  <strong className="main-name" style={{ color: "purple" }}>
+                  <strong className="main-name" style={{ color: "Indigo" }}>
                     {" "}Onwanya Sakharet
                   </strong>
                 </h1>

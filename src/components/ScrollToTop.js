@@ -8,3 +8,5 @@ function ScrollToTop() {
   }, [pathname]);
   return null;
 }
+
+export default ScrollToTop;

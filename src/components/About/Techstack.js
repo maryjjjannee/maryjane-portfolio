@@ -4,24 +4,44 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiPython,
   DiGit,
 } from "react-icons/di";
+import {
+  SiFirebase,
+  SiFlutter,
+  SiXampp,
+  SiRobotframework,
+} from "react-icons/si";
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "200px", paddingTop: "50px",  }}>
-    <Col xs={2} md={7} className="tech-icons">
-      <a href="https://github.com/owskr/Doctorapp" style={{ textDecoration: 'none' ,color: "white", paddingBottom: "80px", paddingTop: "20px", }}>
-        <p>Doctor app</p>
-      </a>
-    </Col>
-    <Col xs={2} md={7} className="tech-icons">
-      <a href="https://github.com/owskr/TestLogin-FB" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' ,color: "white",}}>
-        <p>Test facebook login</p>
-      </a>
-    </Col>
-  </Row>
+    
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" ,  color : "white"}}>
+      <Col xs={4} md={3} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <SiXampp />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <SiRobotframework />
+      </Col>
+      
+    </Row>
   
   );
 }

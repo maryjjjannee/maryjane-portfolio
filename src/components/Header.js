@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FiCode, FiMenu, FiX } from "react-icons/fi";
+import {  FiMenu, FiX } from "react-icons/fi";
 import './Header.css'
 function Header() {
   const [click, setClick] = useState(false);
@@ -11,16 +11,15 @@ function Header() {
     <div className="header">
     <div className="container">
         <div className="header-con">
-
             <ul className={click ? "menu active" : "menu"}>
                 <li className="menu-link" onClick={closeMobileMenu}>
-                <a href="#home" data-nav-section="home">Home</a>
+                <a href="/home" data-nav-section="home">Home</a>
                 </li>
                 <li className="menu-link" onClick={closeMobileMenu}>
-                <a href="#about" data-nav-section="about">About</a>
+                <a href="/about" data-nav-section="about">About</a>
                 </li>
                 <li className="menu-link" onClick={closeMobileMenu}>
-                <a href="#port" data-nav-section="project">Project</a>
+                <a href="/projects" data-nav-section="projects">Projects</a>
                 </li>
             </ul>
             <div className="mobile-menu" onClick={handleClick}>

@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
@@ -5,9 +6,9 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
-import Portfolio from "./components/About/Portfolio";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Projects from "./components/Projects";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -20,16 +21,20 @@ function App() {
   }, []);
 
   return (
-    <>
-    <Preloader load={load} />
+    <Router>
+      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-      <Header />
-      <Home />
-      <About />
-      <Portfolio />
-      <Footer />
+        <Header />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+        <Footer />
       </div>
-    </>
+    </Router>
   );
 }
 

@@ -4,7 +4,7 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <div className="aboutc" id="aboutc">
+    <div className="aboutc" >
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
@@ -18,17 +18,14 @@ function AboutCard() {
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity" style={{ color : "purple" }}>
+            <li className="about-activity" style={{ color : "MediumPurple" }}>
               <ImPointRight /> Playing Games
             </li>
-            <li className="about-activity" style={{ color : "purple" }}>
+            <li className="about-activity" style={{ color : "MediumPurple" }}>
               <ImPointRight /> Travelling
             </li>
           </ul>
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Do, or do not. There is no “try”"{" "}
-          </p>
-          <footer className="blockquote-footer">Maryjane</footer>
+         
         </blockquote>
       </Card.Body>
     </Card>
