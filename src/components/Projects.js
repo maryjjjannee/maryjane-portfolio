@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "./Particle";
@@ -6,6 +6,9 @@ import QHOS from "../Assets/Projects/QHOS.png";
 import FB from "../Assets/Projects/FB.png";
 
 function Projects() {
+  useEffect(() => {
+    document.title = "Onwanya | Portfolio";
+  }, []);
     return (
         <div className="projects" id="projects">
       <Container fluid className="project-section" >

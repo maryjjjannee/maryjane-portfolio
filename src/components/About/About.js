@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
@@ -9,6 +9,9 @@ import Toolstack from "./Toolstack";
 
 
 function About() {
+  useEffect(() => {
+    document.title = "Onwanya | Portfolio";
+  }, []);
   return (
     <div className="about" id="about">
     <Container fluid className="about-section"  style={{paddingtoop : 10}}>
