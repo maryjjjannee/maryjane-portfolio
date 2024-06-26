@@ -4,13 +4,12 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiGit,
 } from "react-icons/di";
+import { FaHtml5, FaCss3Alt} from "react-icons/fa";
 import {
-  SiFirebase,
-  SiFlutter,
   SiXampp,
   SiRobotframework,
+  SiTypescript,
 } from "react-icons/si";
 function Techstack() {
   return (
@@ -26,13 +25,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
-        <DiGit />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
-        <SiFirebase />
+        <FaCss3Alt />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
-        <SiFlutter />
+        <FaHtml5 />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <SiXampp />

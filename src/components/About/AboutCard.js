@@ -9,9 +9,13 @@ function AboutCard() {
         <Card.Body>
           <blockquote className="blockquote mb-0">
             <p style={{ textAlign: "justify", color: "white" }}>
-              Hi Everyone, My name is <span className="purple">Onwanya Sakharet</span>. I'm <span className="purple">22 years old</span>.
-              <br />I am a student at Burapha University.
-              <br />You can call me <span className="purple">Jane</span>. My major is Information Technology.
+              Hi Everyone, My name is <span className="purple">Onwanya Sakharet</span>
+              <br/>
+              You can call me 
+              <span className="purple" style={{padding: 10}}>Jane</span>
+              , I'm <span className="purple">23 years old</span>.
+              <br />I graduated from Burapha University, with  
+              <span className="purple">  Information Technology.</span>
               <br />
               <br />
               Apart from coding, some other activities that I love to do!
