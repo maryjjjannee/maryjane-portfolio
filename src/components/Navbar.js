@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 
 import { Link } from "react-router-dom";
 
-
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -28,9 +27,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-        
-        </Navbar.Brand>
+        <Navbar.Brand href="/" className="d-flex"></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -45,7 +42,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-               Home
+                Home
               </Nav.Link>
             </Nav.Item>
 
@@ -55,7 +52,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                 About
+                About
               </Nav.Link>
             </Nav.Item>
 
@@ -65,12 +62,19 @@ function NavBar() {
                 to="/projects"
                 onClick={() => updateExpanded(false)}
               >
-               
                 Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item >
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                Resume
+              </Nav.Link>
             </Nav.Item>
+            <Nav.Item></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
