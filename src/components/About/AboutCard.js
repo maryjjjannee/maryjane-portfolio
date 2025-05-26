@@ -13,9 +13,11 @@ function AboutCard() {
               <br/>
               You can call me 
               <span className="purple" style={{padding: 10}}>Jane</span>
-              , I'm <span className="purple">23 years old</span>.
+              , I'm <span className="purple">24 years old</span>.
               <br />I graduated from Burapha University, with  
-              <span className="purple">  Information Technology.</span>
+              <span className="purple"> Information Technology.</span>
+              <br />Currently I'm working on Junior Software Engineer, With
+              <span className="purple"> 1 year experience</span>
               <br />
               <br />
               Apart from coding, some other activities that I love to do!

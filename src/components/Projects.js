@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "./Particle";
 import QHOS from "../Assets/Projects/QHOS.png";
 import FB from "../Assets/Projects/FB.png";
+import All_dataset from "../Assets/Projects/All_dataset.png";
 
 function Projects() {
   useEffect(() => {
@@ -39,7 +40,7 @@ function Projects() {
             </Col>
             <Col md={5} className="project-card">
               <ProjectCard
-                imgPath={FB}
+                imgPath={All_dataset}
                 isBlog={false}
                 title="Image data management system."
                 description="Developing a data management system as a solution for efficiently managing large amounts of unstructured data sets and submitted to the AUCC 2024 competition."
