@@ -1,18 +1,18 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiCanva,
   SiVisualstudiocode,
   SiMysql,
-  SiJava,
   SiGithub,
-  SiWindows,
+  SiXampp,
+  SiPhpmyadmin
 } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" , color : "white" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px", color: "white" }}>
       <Col xs={4} md={3} className="tech-icons">
-        <SiCanva />
+      <IoLogoFirebase />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
         <SiVisualstudiocode />
@@ -21,13 +21,13 @@ function Toolstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
-        <SiJava />
-      </Col>
-      <Col xs={4} md={3} className="tech-icons">
         <SiGithub />
       </Col>
       <Col xs={4} md={3} className="tech-icons">
-        <SiWindows />
+        <SiXampp />
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+       <SiPhpmyadmin />
       </Col>
     </Row>
   );

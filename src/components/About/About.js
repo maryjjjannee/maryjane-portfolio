@@ -38,7 +38,7 @@ function About() {
         
           </Col>
           <h1 className="project-heading" >
-            Skill <strong className="purple" >set </strong>
+            Tech <strong className="purple" >stack </strong>
           </h1>
           <Techstack />
           <h1 className="project-heading" >
