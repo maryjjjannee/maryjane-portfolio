@@ -4,7 +4,8 @@ import {
   SiMysql,
   SiGithub,
   SiXampp,
-  SiPhpmyadmin
+  SiPhpmyadmin,
+  SiVercel
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 
@@ -28,6 +29,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={3} className="tech-icons">
        <SiPhpmyadmin />
+      </Col>
+       <Col xs={4} md={3} className="tech-icons">
+      <SiVercel />
       </Col>
     </Row>
   );
