@@ -71,7 +71,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                Resume
+                Cover Letter
               </Nav.Link>
             </Nav.Item>
             <Nav.Item></Nav.Item>
